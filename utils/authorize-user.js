@@ -9,4 +9,4 @@ const authorizeUser = (req, res, next)=>{
     next();
 }
 
-export default authorizeUser();
+export default authorizeUser;
