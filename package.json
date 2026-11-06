@@ -1,7 +1,7 @@
 {
   "name": "campus_library",
   "version": "1.0.0",
-  "description": "Library app",
+  "description": "Library management API built with Express, Node.js and MySQL",
   "homepage": "https://github.com/perezcleidy069-sketch/campus_library#readme",
   "bugs": {
     "url": "https://github.com/perezcleidy069-sketch/campus_library/issues"
@@ -14,19 +14,29 @@
   "author": "perezcleidy069-sketch",
   "type": "module",
   "main": "server.js",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
-    "dev": "nodemon library_campus --quiet",
-    "start": "node server.js"
+    "dev": "nodemon server.js --quiet",
+    "start": "node server.js",
+    "test": "node --test"
   },
   "dependencies": {
+<<<<<<< HEAD
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+=======
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
+>>>>>>> e8d0131d965bf0c072c59bb24de49723cbb9c855
     "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1",
     "express-validator": "^7.3.2",
-    "mysql2": "^3.24.6"
+    "mysql2": "^3.24.6",
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
-    "dotenv": "^18.0.8",
     "nodemon": "^3.1.14"
   }
 }
