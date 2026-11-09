@@ -69,3 +69,8 @@ Las listas aceptan `limit` (1-100, por defecto 50) y `offset` (entero no negativ
 - `DELETE /api/v1/sales/:id` cancela la venta y repone las existencias.
 
 Los préstamos y ventas actualizan el inventario dentro de transacciones. El total de una venta se calcula en el servidor a partir de los precios enviados; la tabla de libros no define un precio.
+
+# Fronted
+
+- https://github.com/perezcleidy069-sketch/frontend-library
+- https://perezcleidy069-sketch.github.io/frontend-library/
