@@ -23,14 +23,11 @@
     "test": "node --test"
   },
   "dependencies": {
-<<<<<<< HEAD
     "cors": "^2.8.6",
     "dotenv": "^18.0.8",
-=======
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
->>>>>>> e8d0131d965bf0c072c59bb24de49723cbb9c855
-    "express": "^5.3.0",
+        "express": "^5.3.0",
     "express-rate-limit": "^8.7.1",
     "express-validator": "^7.3.2",
     "mysql2": "^3.24.6",
